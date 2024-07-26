@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiFi - Nuove misure disponibili</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    "
+  >
+    <table
+      style="width: 100%; text-align: center"
+      cellpadding="0"
+      cellspacing="0"
+      class="myTable"
+    >
+      <tr>
+        <td>
+          <table
+            style="
+              width: 100%;
+              max-width: 600px;
+              margin: 0 auto;
+              padding: 20px;
+              background-color: #ffffff;
+              border: 1px solid #dddddd;
+            "
+            cellpadding="0"
+            cellspacing="0"
+            class="container"
+          >
+             <tr>
+              <td
+                style="padding: 20px; padding-bottom: 0; text-align: left"
+                class="logo-left"
+              >
+                <img
+                  src="https://degg.it/hubfs/Logo%20Degg.png"
+                  alt="Logo Degg"
+                  width="100"
+                />
+              </td>
+            </tr> 
+            <tr>
+              <td style="padding: 20px" class="content-padding">
+                <h1 style="font-size: 24px; color: #333333">
+                    Ciao {{consultant.consultantName}},
+                    sono state trovate nuove misure legate alla tua azienda.
+                </h1>
+                
+                <!-- <ul>
+                  {{#each invites}}
+							      <li>{{this.company.companyName}} - {{this.project.name}}</li>
+    							{{/each}}
+                </ul> -->
+
+                <p style="font-size: 16px; color: #333333" class="myParag">
+                  Se non hai richiesto questa email, puoi ignorarla.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="
+                  font-size: 12px;
+                  color: #777777;
+                  text-align: center;
+                  padding: 10px 0;
+                  border-top: 1px solid #dddddd;
+                "
+                class="footer"
+              >
+                <table cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td
+                      style="
+                        text-align: center;
+                        padding-top: 10px;
+                        vertical-align: middle;
+                      "
+                      class="footer-content footer-padding"
+                    >
+                      <span style="padding-right: 8px; vertical-align: middle"
+                        >powered by</span
+                      >
+                      <img
+                        src="https://mifinanzio.it/wp-content/uploads/2022/06/Mi.png"
+                        alt="Logo Mi Finanzio"
+                        width="25"
+                        height="25"
+                        style="vertical-align: middle"
+                      />
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
